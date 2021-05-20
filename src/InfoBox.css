@@ -1,0 +1,36 @@
+.infoBox {
+  flex: 1;
+  color: #272b3a;
+  background-color: #272b3a;
+  box-shadow: 0 2px 16px -2px rgba(0, 0, 0, 0.5);;
+}
+
+.infoBox:not(:last-child) {
+  margin-right: 10px;
+}
+
+.infoBox--selected {
+  border-top: 10px solid rgb(255, 255, 255);
+}
+
+.infoBox--red {
+  border-color: rgb(255, 255, 255);
+}
+
+.infoBox__cases--green {
+  color: lightgreen !important;
+}
+
+.infoBox__cases {
+  color: #cc1034;
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.infoBox__total {
+  color: #6c757d;
+  font-weight: 700 !important;
+  font-size: 0.8rem !important;
+  margin-top: 15px !important;
+}
